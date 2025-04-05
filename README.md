@@ -29,4 +29,7 @@
 - Introduce power-ups and special items.
 - Implement leaderboard functionality.
 
+## Deploy Link
+https://polite-gumdrop-22a66f.netlify.app/
+
 
