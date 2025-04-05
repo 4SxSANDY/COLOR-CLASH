@@ -1,0 +1,15 @@
+.falling-object {
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  animation: fall 6s linear infinite; /* Slower falling speed */
+  cursor: grab; /* Indicate draggable */
+  user-select: none; /* Prevent selection issues */
+}
+
+
+@keyframes fall {
+  from { top: 0; }
+  to { top: 90%; }
+}

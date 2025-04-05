@@ -1,0 +1,67 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.home-container {
+  background: url("https://png.pngtree.com/thumb_back/fh260/background/20230412/pngtree-color-paint-splash-effect-image_2330631.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  width: 100vw;
+  /* margin: 0;
+  padding: 0; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* margin-right: 200%; */
+}
+
+.home-title {
+  font-size: 3rem;
+  font-weight: bold;
+  color: white;
+  margin-bottom: 20px;
+}
+
+.button-container {
+  display: flex;
+  gap: 20px;
+}
+
+.home-button {
+  background-color: #8a0077;
+  color: white;
+  font-size: 1.2rem;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.home-button:hover {
+  background-color: #a00088;
+}
+
+/* Apply globally */
+/* html, body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+} */
+
+
+
+
