@@ -13,6 +13,7 @@ const Container = () => {
     return localStorage.getItem("highScore") || 0;
   });
 
+  // score storing in local storage 
   useEffect(() => {
     if (lives === 0) {
       setGameOver(true);
